@@ -1,6 +1,7 @@
-CREATE DATABASE burgers_db;
+CREATE DATABASE burgers_dbb;
 
-CREATE TABLE burgers_db.burgers (
+
+CREATE TABLE burgers_dbb.burgers (
 	id INTEGER(11) AUTO_INCREMENT NOT NULL,
 	burger_name VARCHAR(50),
 	devoured BOOLEAN DEFAULT FALSE,
