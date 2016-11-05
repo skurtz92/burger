@@ -2,7 +2,7 @@
 // where you make connection to mysql database and export and used by O.R.M.
 
 var mysql = require('mysql');
-var connection = mysql.createConnectoin({
+var connection = mysql.createConnection({
 	port: 4000,
 	host: 'localhost',
 	user: 'root',
@@ -18,4 +18,4 @@ connection.connect(function(err) {
 	console.log('connection as id ' + connection.threadId);
 });
 
-modeule.exports = connection;
+module.exports = connection;
