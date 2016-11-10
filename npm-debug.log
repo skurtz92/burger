@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'init' ]
+2 info using npm@2.15.9
+3 info using node@v4.5.0
+4 silly package data { name: 'burger',
+4 silly package data   version: '1.0.0',
+4 silly package data   description: 'burger friendly app',
+4 silly package data   main: 'index.js',
+4 silly package data   scripts: { test: 'yoyo', start: 'node server.js' },
+4 silly package data   repository:
+4 silly package data    { type: 'git',
+4 silly package data      url: 'git+https://github.com/skurtz92/burger.git' },
+4 silly package data   keywords: [ 'burger', 'node', 'sql', 'sequelize' ],
+4 silly package data   author: 'Sydney Kurtz',
+4 silly package data   license: 'ISC',
+4 silly package data   bugs: { url: 'https://github.com/skurtz92/burger/issues' },
+4 silly package data   homepage: 'https://github.com/skurtz92/burger#readme',
+4 silly package data   dependencies:
+4 silly package data    { 'body-parser': '^1.15.2',
+4 silly package data      express: '^4.14.0',
+4 silly package data      'express-handlebars': '^3.0.0',
+4 silly package data      'method-override': '^2.3.6',
+4 silly package data      mysql: '^2.12.0' },
+4 silly package data   devDependencies: {} }
+5 info init written successfully
+6 verbose stack Error: EACCES: permission denied, open '/Users/sydneykurtz/Desktop/burger/package.json'
+6 verbose stack     at Error (native)
+7 verbose cwd /Users/sydneykurtz/Desktop/burger
+8 error Darwin 13.4.0
+9 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "init"
+10 error node v4.5.0
+11 error npm  v2.15.9
+12 error path /Users/sydneykurtz/Desktop/burger/package.json
+13 error code EACCES
+14 error errno -13
+15 error syscall open
+16 error Error: EACCES: permission denied, open '/Users/sydneykurtz/Desktop/burger/package.json'
+16 error     at Error (native)
+16 error  { [Error: EACCES: permission denied, open '/Users/sydneykurtz/Desktop/burger/package.json']
+16 error   errno: -13,
+16 error   code: 'EACCES',
+16 error   syscall: 'open',
+16 error   path: '/Users/sydneykurtz/Desktop/burger/package.json' }
+17 error Please try running this command again as root/Administrator.
+18 verbose exit [ -13, true ]
