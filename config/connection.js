@@ -7,7 +7,7 @@ var connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
 	password: 'sprinkle1',
-	databse: 'burgers_dbb'
+	database: 'burgers_dbb'
 });
 
 connection.connect(function(err) {
